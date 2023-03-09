@@ -1,3 +1,10 @@
+@import url("/Style/header.css");
+
 :root {
     --bg-color: #ebecee;
+    --white: #FFFFFF;
 }
+
+body {
+    background-color: var(--bg-color);
+}   
