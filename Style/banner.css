@@ -6,11 +6,30 @@
 }
 
 .banner__titulo {
-    font-size: 1.1em;
+    font-size: 16px;
     font-weight: 700;
 }
 
 .banner__texto {
     font-weight: 500; 
     margin: 1em 0;
+}
+
+.banner__pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    color: var(--white);
+    background: url("/Assets/Lupa.svg") no-repeat;
+    background-position: 1em -0.001em;
 }
