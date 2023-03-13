@@ -2,4 +2,15 @@
     background: var(--blue-gradient);
     color: var(--white);
     text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-weight: 500; 
+    margin: 1em 0;
 }
