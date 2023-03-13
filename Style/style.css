@@ -4,9 +4,13 @@
     --bg-color: #ebecee;
     --white: #FFFFFF;
     --laranja: #eb9b00;
-    --blue-gradient: linear-gradient(97.5deg, #002f52 35.49%, #326589 165.37%);
+    --blue-gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: 'Poppins';
 }
 
 body {
     background-color: var(--bg-color);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 400;
 }   
