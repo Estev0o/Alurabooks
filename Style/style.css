@@ -1,4 +1,5 @@
 @import url("/Style/header.css");
+@import url("/Style/banner.css");
 
 :root {
     --bg-color: #ebecee;
