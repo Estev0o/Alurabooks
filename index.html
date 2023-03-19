@@ -44,8 +44,8 @@
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua proxima leitura?">
     </section>
 
-    <section class="carrosel">
-        <h2 class="carrosel__titulo">Novos lançamentos</h2>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
         <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->
@@ -69,31 +69,32 @@
             <div class="swiper-button-next"></div>
         </div>
 
-        <div class="card">
-            <!-- 1° linha -->
-            <div class="card__descricao">
-                <!-- 1° coluna -->
-                <div class="descricao">
-                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
-                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
-                </div>
-                <!-- 2° coluna -->
-                <img src="Assets/Angular.svg" class="descricao__img" alt="Imagem do logo do framework Angular">
-            </div>
-
-            <!-- 2° linha -->
-            <div class="card__botoes">
-                <!-- 1 coluna -->
-                <ul class="botoes">
-                    <li class="botoes__item"><img src="Assets/Favoritos.svg" alt="Favoritar livro"></li>
-                    <li class="botoes__item"><img src="Assets/Compras.svg" alt="adicionar ao carrinho de compras"></li>
-                </ul>
-                <!-- 2 coluna -->
-                <a href="#" class="botoes__ancora">Saiba mais</a>
-            </div>
-        </div>
     </section>
+
+    <div class="card">
+        <!-- 1° linha -->
+        <div class="card__descricao">
+            <!-- 1° coluna -->
+            <div class="descricao">
+                <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            </div>
+            <!-- 2° coluna -->
+            <img src="Assets/Angular.svg" class="descricao__img" alt="Imagem do logo do framework Angular">
+        </div>
+
+        <!-- 2° linha -->
+        <div class="card__botoes">
+            <!-- 1 coluna -->
+            <ul class="botoes">
+                <li class="botoes__item"><img src="Assets/Favoritos.svg" alt="Favoritar livro"></li>
+                <li class="botoes__item"><img src="Assets/Compras.svg" alt="adicionar ao carrinho de compras"></li>
+            </ul>
+            <!-- 2 coluna -->
+            <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+    </div>
 
     <section class=”carrossel”>
         <h2 class="carrossel__titulo">Mais vendidos</h2>
@@ -120,6 +121,33 @@
             <div class="swiper-button-next"></div>
         </div>
     </section>
+
+    <div class="card">
+        <!-- 1º linha -->
+        <div class="card__descricao">
+            <!-- 1º coluna -->
+            <div class="descricao">
+                <img src="Assets/Estrelinhas.png" alt="Avaliação 5 estrelas">
+                <h3 class="descricao__titulo">Autora do Mês</h3>
+                <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
+                </p>
+            </div>
+            <!-- 2º coluna -->
+            <img src="Assets/Escritora.svg" class="descricao__img">
+        </div>
+
+        <!-- 2º linha -->
+        <div class="card__botoes">
+            <!-- 1º coluna -->
+            <ul class="botoes">
+                <li class="botoes__item"><img src="Assets/Favoritos.svg" alt="Favoritar livro"></li>
+                <li class="botoes__item"><img src="Assets/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+            </ul>
+            <!-- 2º coluna -->
+            <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
