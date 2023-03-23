@@ -3,9 +3,21 @@
     padding: 1em;
 }
 
-.contato__titulo {
-    color: var(--blue);
+.contato__titulo, .contato__texto {
+    background: var(--blue);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.contato__titulo {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+
