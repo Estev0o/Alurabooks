@@ -1,0 +1,11 @@
+.contato {
+    background-color: var(--white);
+    padding: 1em;
+}
+
+.contato__titulo {
+    color: var(--blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
