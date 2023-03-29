@@ -56,3 +56,18 @@
 .conteiner__botao {
     display: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .conteiner__titulo, .conteiner__titulo-negrito {
+        font-family: var(--second-font);
+        font-size: 30px;
+    }
+
+    .conteiner__titulo {
+        font-weight: 400;
+    }
+
+    .conteiner__titulo-negrito {
+        font-weight: 700;
+    }
+}
