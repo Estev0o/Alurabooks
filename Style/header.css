@@ -97,4 +97,8 @@
         text-decoration: none;
         color: var(--black);
     }
+
+    .conteiner__imagem-transparent {
+        display: none;
+    }
 }
