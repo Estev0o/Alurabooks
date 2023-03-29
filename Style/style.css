@@ -7,6 +7,7 @@
     --laranja: #eb9b00;
     --blue-gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     --fonte-principal: 'Poppins';
+    --black: #000;
 }
 
 body {
