@@ -101,4 +101,8 @@
     .conteiner__imagem-transparent {
         display: none;
     }
+
+    .cabecalho__menu-humburguer {
+        display: none;
+    }
 }
