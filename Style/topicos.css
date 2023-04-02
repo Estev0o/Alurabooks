@@ -29,3 +29,11 @@
     font-weight: 700;
     border-radius: 12px;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos___titulos,.topicos__link {
+        font-size: 24px
+    }
+
+    
+}
