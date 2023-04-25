@@ -52,3 +52,24 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+.conteiner__botao {
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .conteier__titulo,.conteiner__titulo-negrito {
+        font-size: 30px;
+    }
+
+    .conteier__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .conteiner__titulo-negrito {
+        font-weight: 700;
+    }
+
+
+}
