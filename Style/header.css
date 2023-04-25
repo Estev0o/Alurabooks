@@ -57,6 +57,14 @@
     display: none;
 }
 
+.conteiner__titulo {
+    display: none;
+}
+
+.opcoes {
+    display: none;
+}
+
 @media screen and (min-width: 1024px){
     .conteier__titulo,.conteiner__titulo-negrito {
         font-size: 30px;
@@ -71,5 +79,25 @@
         font-weight: 700;
     }
 
+    .opcoes {
+        display: flex;
+    }
 
+    .opcoes__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link {
+        text-decoration: none;
+        color: var(--color-link);
+    }
+
+    .conteiner__imagem-transparente {
+        display: none;
+    }
+
+    .cabecalho__menu-humburguer {
+        display: none;
+    }
 }
