@@ -21,7 +21,7 @@
 }
 
 .conteiner__imagem {
-    padding: 0 1.5em;
+    padding: 0 1.0em;
 }
 
 .lista-menu {
@@ -113,5 +113,22 @@
 
     .opcoes__menu{
         display: none;
+    }
+}
+
+@media screen and (min-width:1728px){
+    .conteiner__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
     }
 }
