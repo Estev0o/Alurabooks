@@ -7,6 +7,14 @@
     display: inline-block;
 }
 
+.conteiner__botao:checked ~ .conteiner__rotulo > .cabecalho__menu-humburguer{
+    background-image: url(/Assets/Menu\ Aberto.svg);
+}
+
+.conteiner__botao:checked ~ .conteiner__rotulo {
+    background: var(--blue-gradient);
+}
+
 .cabecalho {
     background-color: var(--white);
     display: flex;
