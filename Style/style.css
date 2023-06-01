@@ -1,7 +1,9 @@
-@import url("./header.css");
+@import url("/Style/header.css");
 @import url("./banner.css");
 @import url("/Style/carrosel.css");
 @import url("/Style/topicos.css");
+@import url("/Style/contato.css");
+@import url("/Style/footer.css");
 
 :root {
     --bg-color: #ebecee;
@@ -10,6 +12,13 @@
     --blue: #002F52;
     --blue-gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     --fonte-principal: 'Poppins';
+
+    --black: #000;
+
+    --second-font: "Josefin Sans";
+
+    --color-link: #474646;
+    --color-title-footer: #858585;
 }
 
 body {
