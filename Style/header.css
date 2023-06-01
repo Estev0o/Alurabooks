@@ -1,0 +1,148 @@
+
+.cabecalho__menu-humburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../Assets/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.conteiner__botao:checked ~ .conteiner__rotulo > .cabecalho__menu-humburguer{
+    background-image: url(/Assets/Menu\ Aberto.svg);
+}
+
+.conteiner__botao:checked ~ .conteiner__rotulo {
+    background: var(--blue-gradient);
+}
+
+.cabecalho {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.conteiner__imagem {
+    padding: 0 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.conteiner__botao:checked ~ .lista-menu{
+    display: block;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--white);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    background: var(--blue-gradient); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+
+.conteiner__botao {
+    display: none;
+}
+
+.conteiner__titulo {
+    display: none;
+}
+
+.opcoes {
+    display: none;
+}
+
+.conteiner__texto {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .conteiner__titulo, .conteiner__titulo-negrito {
+        font-family: var(--second-font);
+        font-size: 30px;
+    }
+
+    .conteiner__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .conteiner__titulo-negrito {
+        font-weight: 700;
+    }
+
+    .opcoes {
+        display: flex;
+    }
+
+    .opcoes__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link {
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .conteiner__imagem-transparent {
+        display: none;
+    }
+
+    .cabecalho__menu-humburguer {
+        display: none;
+    }
+
+    .opcoes__menu:checked ~.lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__menu{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1728px){
+    .conteiner__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .conteiner__texto {
+        display: block;
+    }
+}

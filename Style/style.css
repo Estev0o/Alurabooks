@@ -12,7 +12,11 @@
     --blue: #002F52;
     --blue-gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     --fonte-principal: 'Poppins';
+
+    --black: #000;
+
     --second-font: "Josefin Sans";
+
     --color-link: #474646;
     --color-title-footer: #858585;
 }
