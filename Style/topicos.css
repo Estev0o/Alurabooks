@@ -30,6 +30,15 @@
     border-radius: 12px;
 }
 
+
+@media screen and (min-width: 1024px) {
+    .topicos___titulos,.topicos__link {
+        font-size: 24px
+    }
+
+    
+}
+
 @media screen and ( min-width: 1024px) {
     .topicos___titulos {
         font-size: 24px;
@@ -45,3 +54,4 @@
         padding: 3em 30vw;
     }
 }
+
