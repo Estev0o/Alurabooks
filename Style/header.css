@@ -75,7 +75,7 @@
     display: none;
 }
 
-.conteiner__texto {
+.contato__texto {
     display: none;
 }
 
@@ -142,7 +142,7 @@
         margin-right: auto;
     }
 
-    .conteiner__texto {
-        display: block;
+    .contato__texto {
+        display: none;
     }
 }
