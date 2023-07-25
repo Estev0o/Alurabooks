@@ -6,7 +6,7 @@
 <p>
   Então o AluraBook nada mais é do que uma empresa de venda de livros do grupo Alura.
   Utilizando o Mobile First que é um conceito aplicado em projetos web onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis e em seguida para os desktops.
-  Segue o link do deploy <a href="https://alurabooks-estev0o.vercel.app"> <strong clique aqui </strong></a>
+  Segue o link do deploy <a href="https://alurabooks-estev0o.vercel.app"> <strong> clicando aqui </strong> </a>
 </p>
 
 <h1 align="center"> Construido com: </h1>
