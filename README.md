@@ -5,7 +5,5 @@
 
 
 ## Licença
-
-Docusaurus is [MIT licensed](./LICENSE.md).
-
-The Docusaurus documentation (e.g., `.md` files in the `/docs` folder) is [Creative Commons licensed](./LICENSE-cc.md).
+The [MIT licensed](./LICENSE.md).
+The [Creative Commons licensed](./LICENSE-cc.md).
