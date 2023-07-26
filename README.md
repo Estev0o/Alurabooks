@@ -12,19 +12,22 @@
 <h1 align="center"> Construido com: </h1>
 <ul align="center" type="none">
   <li>
-    <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" height="45" alt="html5 logo"  />
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+      <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" height="45" alt="html5 logo"  />
+    </a>
   </li>
   <li>
-    <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" height="45" alt="css3 logo"  />
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+      <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" height="45" alt="css3 logo"  />
+    </a>
   </li>
   <li>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="45" alt="javascript logo"  />
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="45" alt="javascript logo"  />
+    </a>
   </li>
 </ul>
 
-###
-
-###
-## Licença
+# Licença
 The [MIT licensed](./LICENSE.md) <br>
 The [Creative Commons licensed](./LICENSE-cc.md).
